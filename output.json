@@ -1,0 +1,14 @@
+[
+    {
+      "source": "http://testleak.onion",
+      "emails": [
+        "leakeduser1@example.com",
+        "hacked_mail@darkmail.com"
+      ],
+      "btc_addresses": [
+        "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+      ],
+      "text_snippet": "This dump contains emails and BTC addresses from a recent database breach on the dark web..."
+    }
+  ]
+  

@@ -89,3 +89,21 @@ This tool is for **educational and ethical research** purposes only. Accessing t
 ## 📁 License
 [MIT License](LICENSE)
 
+## 📁 Project Structure
+## 📁 Project Structure
+
+```
+dark_web_project/
+│
+├── app.py               # Streamlit dashboard
+├── tor_crawler.py       # Crawler logic to extract emails & BTC addresses
+├── output.json          # Extracted data from crawler (optional or .gitignored)
+├── requirements.txt     # Python dependencies (Streamlit, requests, etc.)
+├── README.md            # Full project documentation
+├── .gitignore           # Files/folders to exclude from Git
+├── LICENSE              # Optional open-source license file
+```
+
+
+
+

@@ -1,12 +1,4 @@
 import streamlit as st
-import webbrowser
-import threading
-
-def open_deployed_link():
-    webbrowser.open_new_tab("https://dark-web-threat-intel-fbn7lrtwgt4dcccypgbwa2.streamlit.app")
-
-threading.Timer(1.0, open_deployed_link).start()
-import streamlit as st
 import json
 import pandas as pd
 

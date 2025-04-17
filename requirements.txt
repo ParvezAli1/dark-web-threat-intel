@@ -1,6 +1,9 @@
 streamlit
 beautifulsoup4
 fpdf
+<<<<<<< HEAD
+=======
 requests
 lxml
+>>>>>>> 3585902d4809ff93677dfa2e215b95732e0fc83a
 

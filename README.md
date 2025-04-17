@@ -25,13 +25,25 @@ This makes it useful for **cybersecurity teams, SOCs, threat analysts**, and **r
 
 ---
 
+# ==== Installation Instructions ====
+# To install all the required packages, run:
+# pip install -r requirements.txt
+
+# ==== Troubleshooting ====
+# If you face any issues running the app, please kindly watch the demo video for guidance.
+---
+
+
 ## 🚧 Tech Stack
 - Python 3
 - [Streamlit](https://streamlit.io/) - for dashboard UI
 - BeautifulSoup - HTML parsing
-- requests + Tor proxy - for anonymous `.onion` crawling
+- fpdf- Export threat reports or summaries as downloadable PDFs
+
 
 ---
+
+
 
 ## 📊 How It Works
 1. `tor_crawler.py` crawls dummy/dark web pages via Tor and extracts emails, BTC addresses, and text.
@@ -44,17 +56,13 @@ This makes it useful for **cybersecurity teams, SOCs, threat analysts**, and **r
 ### 1. Start Tor locally
 Make sure you have **Tor** running on port `9050`. You can use Tor Browser or the Tor service.
 
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
 
-### 3. Run the crawler
+### 2. Run the crawler
 ```bash
 python tor_crawler.py
 ```
 
-### 4. Launch the dashboard
+### 3. Launch the dashboard
 ```bash
 streamlit run app.py
 ```
@@ -89,7 +97,6 @@ This tool is for **educational and ethical research** purposes only. Accessing t
 ## 📁 License
 [MIT License](LICENSE)
 
-## 📁 Project Structure
 ## 📁 Project Structure
 
 ```
